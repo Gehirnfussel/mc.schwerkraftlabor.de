@@ -36,7 +36,7 @@ gulp.task('styles', function() {var onError = function(err) {
         .pipe(rename({suffix: '.min'}))
         .pipe(cssmin())
         .pipe(gulp.dest('./css'))
-        .pipe(notify({ message: 'Styles task complete' }));
+        //.pipe(notify({ message: 'Styles task complete' }));
 });
 
 

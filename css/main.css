@@ -1,0 +1,51 @@
+/*  Resets
+--------------------------*/
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
+
+/* Ideal Viewport-Fix for IE */
+@-ms-viewport {
+  width: device-width; }
+
+/*  Cleafix
+--------------------------*/
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table; }
+
+.clearfix::after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333; }
+
+h1 {
+  font-family: Oswald, sans-serif; }
+
+.header--image {
+  min-height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('/img/mc_kontor.jpg');
+  height: 200px;
+  width: 100%; }
+
+html {
+  height: 100%; }
