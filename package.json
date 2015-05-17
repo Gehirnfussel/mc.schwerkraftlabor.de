@@ -1,11 +1,11 @@
 {
-  "name": "dk.vegasalmon.intranet",
+  "name": "mc.schwerkraftlabor.de",
   "version": "0.1.0",
-  "description": "A small intranet page.",
+  "description": "The webpage for our minecraft server.",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/Gehirnfussel/intranet"
+    "url": "https://github.com/Gehirnfussel/mc.schwerkraftlabor.de"
   },
   "dependencies": {},
   "devDependencies": {
